@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplicationtest.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/battery_level"
+        android:icon="@drawable/ic_battery_full_black_24dp"
+        android:title="Item1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/connect"
+        android:icon="@drawable/ic_headset_black_24dp"
+        android:title="Item2"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
