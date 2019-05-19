@@ -57,7 +57,7 @@ An interactive mobile application along with a desktop application and an EEG he
   <img src="Images/Emos_readings.jpeg" width="400" /> 
 </p>
   
- 3. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user have the option to Choose between two radii, gradients and opacities The Happiness level is calculated based on the following formula:
+ 3. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user has the option to choose between two radii, gradients and opacities. The Happiness level is calculated based on the following formula:
   
     Happiness Level = (15% * Interest Level) + (15% * Engagement Level) + (35% Interest Level) + (35% 		Relaxation Level) 
 
