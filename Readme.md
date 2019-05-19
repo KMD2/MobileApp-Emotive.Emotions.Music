@@ -88,7 +88,7 @@ The performance metrics measures (as percentages) including: Interest, Stress, R
 
 ## Server
 
-For the server side, **Amazon EC2** server is used and all the scripts are written in **Node.js**. The server stores the data retrieved from the desktop application (i.e. Performance metrics and location). The calculations mentioned above regarding the Happiness Map are done here in the server, for one user (defined by the headset Id) all the data is aggregated by the first 4 digits after the decimal of both the latitude and longitude, then the Happiness level formula is applied. For the common Happiness Map, all the data regardless of the user is utilized as before. These information are sent to the mobile application upon request via HTTP request. For the statistics data, before sending it to the mobile application, it is aggregated by each hour in each day in a period of one month.
+For the server side, **Amazon EC2** server is used and all the scripts are written in **Node.js**. The server stores the data retrieved from the desktop application (i.e. Performance metrics and location). The calculations mentioned above regarding the Happiness Map are done here in the server, for one user (defined by the headset Id) all the data is aggregated by the first 4 digits after the decimal of both the latitude and longitude, then the Happiness level formula is applied. For the common Happiness Map, all the data regardless of the user is utilized as before. This information is sent to the mobile application upon request via HTTP. For the statistics data, before sending it to the mobile application, the data is aggregated by each hour in each day in a period of one month.
 
 ## Mobile Application
 
