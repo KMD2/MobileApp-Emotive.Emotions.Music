@@ -25,8 +25,8 @@ An interactive mobile application along with a desktop application and an EEG he
 5. Switch on your Emotiv headset.
 
 <p float="left">
-  <img src="Epoc-product-image.png" width="100" />
-  <img src="Insight-new-2-600x600.png" width="100" /> 
+  <img src="Epoc-product-image.png" width="200" />
+  <img src="Insight-new-2-600x600.png" width="200" /> 
 </p>
 
 6. Via Bluetooth, connect the headset manually to your computer.
