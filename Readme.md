@@ -46,7 +46,7 @@ An interactive mobile application along with a desktop application and an EEG he
  
  <img src = "Images/login_page.jpeg" width = "400"/>
  
- 2. The main page consists of 8 buttons. The forth till the eighth button each corresponds to one of the six emotions: Interest, Stress, Relaxation, Excitement, Engagement and Focus. Each button displays the current level of the intended emotion in percentages. (For emotions, the figure on the left shows no readings which means that the headset is not connected. The figure on the right displays the real time readings )
+ 2. The main page consists of 8 buttons. The third till the eighth buttons each corresponds to one of the six emotions: Interest, Stress, Relaxation, Excitement, Engagement and Focus. Each button displays the current level of the intended emotion in percentages. (For emotions, the figure on the left shows no readings which means that the headset is not connected. The figure on the right displays the real time readings )
  
    <img src="Images/main.jpeg" width="400" />
    
