@@ -97,7 +97,7 @@ The Music player asks for the users' permission to access the phone's storage to
 
 # Limitations
 
-Instead of creating a local music player, we wanted to integrate a music API (i.e. Spotify) but unfortunately to do so, and to be able to use some of it's features, the user must have the application (Spotify) in his or her phone. And to be able to integrate an API without the need of downloading the original application this option is not available for free. We did not see this to be practical so we sticked to the local music player.
+Instead of creating a local music player and using a user's music library, we wanted to integrate a music API. Unfortunately, all APIs we found do not have a free option (plan). Spotify is a free api, but to use some of it's features, the user must have the application (Spotify) in his or her phone. And to be able to integrate an API without the need of downloading the original application this option is not available for free. We did not see this to be practical so we sticked to the local music player.
 
 # Future Work
 
