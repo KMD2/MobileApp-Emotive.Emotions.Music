@@ -58,6 +58,7 @@ An interactive mobile application along with a desktop application and an EEG he
 
 # Connection Map (Distributed systems)
 
+![DBS](DBS.png)
 
 
 
