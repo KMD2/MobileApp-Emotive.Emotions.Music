@@ -33,7 +33,7 @@ An interactive mobile application along with a desktop application and an EEG he
 
 <img src = "Images/Add_Device_Blutooth.JPG" width = "375"/>
 
-7. Go back to the desktop application. It should display the  message "Your headset is connected".
+7. Go back to the desktop application. It should display the  message "Connected Headset" and the name of the headset.
 
 ![Connected headset](Images/Desktop_app_connected.png)
 
