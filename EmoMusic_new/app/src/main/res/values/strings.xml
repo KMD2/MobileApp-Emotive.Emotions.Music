@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EmoMusic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="inter">Interest</string>
+    <string name="strs">Stress</string>
+    <string name="rel">Relaxation</string>
+    <string name="exc">Excitement</string>
+    <string name="eng">Engagement</string>
+    <string name="foc">Focus</string>
+    <string name="map">Map</string>
+    <string name="music">Play Music</string>
+    <string name="def">0%</string>
+    <string name="test">Test</string>
+    <string name="police_stations_url">http://data.gov.au/dataset/police-station-locations/resource/76110b24-0f0a-4c29-9583-3f99eaba486c</string>
+    <string name="my_map">My Map</string>
+    <string name="button_radius">Radius</string>
+    <string name="button_gradient">Gradient</string>
+    <string name="button_opacity">Opacity</string>
+    <string name="common_map">Common Map</string>
+    <string name="attrib_format">Data from &lt;a href = "%s">data.gov.au&lt;/a>, modified under &lt;a href = \"http://creativecommons.org/licenses/by/3.0/au/\">CC BY 3.0 AU&lt;/a></string>
+    <string name="medicare_url">http://data.gov.au/dataset/location-of-medicare-offices/resource/5d38e1be-4011-49c4-8b8b-75405eeb1088</string>
+    <string name="performance_query">http://ec2-52-14-214-97.us-east-2.compute.amazonaws.com:3300/api/performance</string>
+    <string name="synchronize_query">http://ec2-52-14-214-97.us-east-2.compute.amazonaws.com:3300/api/statistics</string>
+    <string name="heatmap_query">http://ec2-52-14-214-97.us-east-2.compute.amazonaws.com:3300/api/heatmap</string>
+
+
+    <string-array name="heatmaps_datasets_array">
+        <item>@string/my_map</item>
+        <item>@string/common_map</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
