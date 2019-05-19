@@ -63,7 +63,7 @@ An interactive mobile application along with a desktop application and an EEG he
 
 <img src="Images/MyMap.jpeg" width="400" /> 
 
-4. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset).
+4. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset). The brighter the color in the map the higher the level of happiness is.
 
 <img src="Images/common_map.jpeg" width="400" /> 
 
