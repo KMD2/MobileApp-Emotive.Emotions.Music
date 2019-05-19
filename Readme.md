@@ -15,7 +15,8 @@ An interactive mobile application along with a desktop application and an EEG he
 # Installation and Setup
 ## Desktop Application and Emotiv Headset
 
-1. Clone the repository.
+1. Download the application from the following link:
+https://drive.google.com/drive/folders/1g6CJFuNcRF9of6hmKIIRR_YSMg2H-jt-
 2. Unzip the file **emotiv** and go to the release-builds directory. 
 3. Run the proper file According to your operating system.
 4. After a successful installation, the application will launch automatically. (see figure below)
@@ -42,11 +43,14 @@ An interactive mobile application along with a desktop application and an EEG he
 ![Connected headset](Images/desktop_app_recording.png)
 
 ## Mobile Application
- 1. Sign in to the mobile application. The Id is your Emotiv headset unique id.
+
+ 1. Clone the repository. Go to **Mobile_Application** directory and open the project **EmoMusic_new** with Android Studio and download the application.
+ 
+ 2. Sign in to the mobile application. The Id is your Emotiv headset unique id.
  
  <img src = "Images/login_page.jpeg" width = "400"/>
  
- 2. The main page consists of 8 buttons. The third till the eighth buttons each corresponds to one of the six emotions: Interest, Stress, Relaxation, Excitement, Engagement and Focus. Each button displays the current level of the intended emotion in percentages. (For emotions, the figure on the left shows no readings which means that the headset is not connected. The figure on the right displays the real time readings )
+ 3. The main page consists of 8 buttons. The third till the eighth buttons each corresponds to one of the six emotions: Interest, Stress, Relaxation, Excitement, Engagement and Focus. Each button displays the current level of the intended emotion in percentages. (For emotions, the figure on the left shows no readings which means that the headset is not connected. The figure on the right displays the real time readings )
  
    <img src="Images/main.jpeg" width="400" />
    
@@ -57,21 +61,21 @@ An interactive mobile application along with a desktop application and an EEG he
   <img src="Images/Emos_readings.jpeg" width="400" /> 
 </p>
 
-3. Tapping on any of the emotions' buttons will direct the user to the statistics page. The page shows a one month data of the levels of the selected emotion. Looking at the figure below, the x-axis represents the day and hour (ex. 05-01:14 means day 5 of the current month at 01:14 AM) and the y-axis represents the emotion's level in percentage. The user can zoom-in for more detailed day-level reading (the minimum x-axis unit is one hour per day).
+4. Tapping on any of the emotions' buttons will direct the user to the statistics page. The page shows a one month data of the levels of the selected emotion. Looking at the figure below, the x-axis represents the day and hour (ex. 05-01:14 means day 5 of the current month at 01:14 AM) and the y-axis represents the emotion's level in percentage. The user can zoom-in for more detailed day-level reading (the minimum x-axis unit is one hour per day).
 
  <img src="Images/statis.jpeg" width="400" />
   
- 4. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user has the option to choose between two radii, gradients and opacities. The Happiness level is calculated based on the following formula:
+ 5. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user has the option to choose between two radii, gradients and opacities. The Happiness level is calculated based on the following formula:
   
     Happiness Level = (15% * Interest Level) + (15% * Engagement Level) + (35% Interest Level) + (35% 		Relaxation Level) 
 
 <img src="Images/MyMap.jpeg" width="400" /> 
 
-5. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset). The brighter the color in the map the higher the level of happiness is.
+6. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset). The brighter the color in the map the higher the level of happiness is.
 
 <img src="Images/common_map.jpeg" width="400" /> 
 
-6. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the ***X*** icon on the top most-right of the page.   
+7. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the ***X*** icon on the top most-right of the page.   
 
 <img src="Images/Music_player.jpeg" width="400" /> 
 
