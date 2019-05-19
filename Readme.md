@@ -8,7 +8,7 @@
 
 EmoMusic: Emotions + Music
 
-An interactive mobile application along with a desktop application and an EEG headset (Emotiv). The mobile application allows the user to view his/her emotion levels at the moment, display statistics of each emotion for the past one month, explore the personalized happiness heatmap based on the user's all-time recorded data or common happiness heatmap based on all user's data. Finally, play music tracks and notice the change in the emotions' levels.
+An interactive mobile application along with a desktop application and an EEG headset (Emotiv). The mobile application allows the user to view his/her emotion levels at the moment. The user can display statistics of each emotion for the past one month, explore the personalized happiness heatmap based on the user's all-time recorded data or common happiness heatmap based on all user's data and play music tracks and notice the change in the emotions' levels.
 
 ![Description](Images/Description.png)
 
