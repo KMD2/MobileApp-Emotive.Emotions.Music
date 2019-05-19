@@ -75,12 +75,12 @@ An interactive mobile application along with a desktop application and an EEG he
 
 ![DBS](Images/DBS.png)
 
-The headset is connected to the computer via Bluetooth, the desktop application reads data from the headset, the data is then transferred and stored in the sever. The mobile application receives the data from the server and utilize it for use in the Happiness Map and statistics. The mobile application contains a database for local storage (Display statistics even if the user is not connected to the Internet. 
+The headset is connected to the computer via Bluetooth, the desktop application reads data from the headset, the data is then transferred and stored in the sever. The mobile application receives the data from the server and utilize it for use in the Happiness Map and statistics. The mobile application contains a database for local storage (display statistics even if the user is not connected to the Internet). 
 
 # Software Architecture 
 ## Desktop Application
 
-The desktop application was developed with **Electron**, fully written in **Node.js**. The headset **Emotiv SDK** was integrated within the application to be able to connect to the headset and retrieve the performance metrics data. The readings are retrieved every 10 second. To associate these readings with a geo-tag (to be used for generating the Happiness Map), the location as longitude and latitude is recorded every 10 seconds via WIFI by Integrating **Google Maps API**. The data is send to the server via a HTTP request also written in Node.js.
+The desktop application was developed with **Electron**, fully written in **Node.js**. The headset **Emotiv SDK** was integrated within the application to be able to connect to the headset and retrieve the performance metrics data. The readings are retrieved every 10 second. To associate these readings with a geo-tag (to be used for generating the Happiness Map), the location as longitude and latitude is recorded every 10 seconds via WIFI through **Google Maps API** service. The data is sent to the server via a HTTP request.
 
 ## Emotiv Headset
 
