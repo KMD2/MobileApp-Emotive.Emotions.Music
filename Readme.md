@@ -61,7 +61,7 @@ https://drive.google.com/drive/folders/1g6CJFuNcRF9of6hmKIIRR_YSMg2H-jt-
   <img src="Images/Emos_readings.jpeg" width="400" /> 
 </p>
 
-4. Tapping on any of the emotions' buttons will direct the user to the statistics page. The page shows a one month data of the levels of the selected emotion. Looking at the figure below, the x-axis represents the day and hour (ex. 05-01:14 means day 5 of the current month at 01:14 AM) and the y-axis represents the emotion's level in percentage. The user can zoom-in for more detailed day-level reading (the minimum x-axis unit is one hour per day).
+4. Tapping on any of the emotions' buttons will direct the user to the statistics page. The page shows a one month data of the levels of the selected emotion. Looking at the figure below, the x-axis represents the day and hour (ex. 05-01:14 means day 5 of the current month at 01:14 AM) and the y-axis represents the emotion's level in percentage. The user can zoom-in for more detailed day-level readings (the minimum x-axis unit is one hour per day).
 
  <img src="Images/statis.jpeg" width="400" />
   
