@@ -74,6 +74,12 @@ The desktop application was developed with **Electron**, fully written in **Node
 
 ## Emotiv Headset
 
+The performance metrics measures (as percentages) including: Interest, Stress, Relaxation, Excitement, Engagement and Focus are retrieved from the the headset. According to Emotiv website [1], to compute levels that define each emotion; detection algorithms are used. These algorithms were achieved by the means of conducting many scientific studies that led to the development of accurate machine learning algorithms. The exact algorithms used were not mentioned, but in a study conducted by Lin et al. [2] where they classify emotions from raw EEG (electroencephalogram) signals retrieved from Emotiv headset, the classification algorithms they used are Linear Discriminant Analysis (LDA) and Support Vector Machine (SVM). 
+
+## Server
+
+For the server side, **Amazon EC2** server is used. The server stores the data retrieved from the
+
 
 
 
