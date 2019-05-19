@@ -101,10 +101,14 @@ Instead of creating a local music player, we wanted to integrate a music API (i.
 
 # Future Work
 
-1.Use machine learning to classify the music tracks into categories according to the emotions.
-2.According to the dominant emotion of the user, for example stress, the application will create a playlist  of songs that reduces stress (Classified using ML).
-3.Emotiv Android SDK is going to be released in the future. One released, the Emotiv headset can directly connect to the mobile application.
-4.Integrate and combine features from Fitbit API with the performance metrics and power band readings from the Emotiv headset.  
+1. Use machine learning to classify the music tracks into categories according to the emotions.
+2. According to the dominant emotion of the user, for example stress, the application will create a playlist  of songs that reduces stress (Classified using ML).
+3. Emotiv Android SDK is going to be released in the future. One released, the Emotiv headset can directly connect to the mobile application.
+4. Integrate and combine features from Fitbit API with the performance metrics and power band readings from the Emotiv headset.  
+
+# References 
+[1]
+[2]
 
 
 
