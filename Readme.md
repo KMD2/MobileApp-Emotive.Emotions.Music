@@ -56,18 +56,22 @@ An interactive mobile application along with a desktop application and an EEG he
   <img src="Images/Emo_levels.jpeg" width="400" />
   <img src="Images/Emos_readings.jpeg" width="400" /> 
 </p>
+
+3. Tapping on any of the emotions' buttons will direct the user to the statistics page. The page shows a one month data of the levels of the selected emotion. Looking at the figure below, the x-axis represents the day and hour (ex. 05-01:14 means day 5 of the current month at 01:14 AM) and the y-axis represents the emotion's level in percentage. The user can zoom-in for more detailed day-level reading (the minimum x-axis unit is one hour per day).
+
+ <img src="Images/statis.jpeg" width="400" />
   
- 3. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user has the option to choose between two radii, gradients and opacities. The Happiness level is calculated based on the following formula:
+ 4. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user has the option to choose between two radii, gradients and opacities. The Happiness level is calculated based on the following formula:
   
     Happiness Level = (15% * Interest Level) + (15% * Engagement Level) + (35% Interest Level) + (35% 		Relaxation Level) 
 
 <img src="Images/MyMap.jpeg" width="400" /> 
 
-4. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset). The brighter the color in the map the higher the level of happiness is.
+5. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset). The brighter the color in the map the higher the level of happiness is.
 
 <img src="Images/common_map.jpeg" width="400" /> 
 
-5. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the ***X*** icon on the top most-right of the page.   
+6. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the ***X*** icon on the top most-right of the page.   
 
 <img src="Images/Music_player.jpeg" width="400" /> 
 
@@ -107,8 +111,8 @@ Instead of creating a local music player and using a user's music library, we wa
 4. Integrate and combine features from Fitbit API with the performance metrics and power band readings from the Emotiv headset.  
 
 # References 
-[1]
-[2]
+1. https://www.emotiv.com/our-technology/
+2. Rafael  Ramirez  and  Zacharias  Vamvakousis.   Detect-ing Emotion from EEG Signals Using the Emotive EpocDevice. volume 7670, pages 175–184, 5 2012
 
 
 
