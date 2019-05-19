@@ -2,8 +2,7 @@
 *Developed by: Duoaa Khalifa & Nadya Abdel Madjid*
 
 
-![EmoMusic Logo](EmoMusic.png)
-
+<img src = "EmoMusic.png" width = "250"/>
 # Description
 
 EmoMusic: Emotions + Music
@@ -23,9 +22,15 @@ An interactive mobile application along with a desktop application and an EEG he
 ![Desktop start](EmoMusic_Desktop_start.JPG)
 
 5. Switch on your Emotiv headset.
-6. Via bluetooth, connect the headset manually to your computer.
 
-![Bluetooth connection](Add_Device_Blutooth.JPG)
+<p float="left">
+  <img src="Epoc-product-image.png" width="250" />
+  <img src="Insight-new-2-600x600.png" width="250" /> 
+</p>
+
+6. Via Bluetooth, connect the headset manually to your computer.
+
+<img src = "Add_Device_Blutooth.JPG" width = "375"/>
 
 7. Go back to the desktop application. It should display he  message "Your headset is connected".
 
@@ -42,17 +47,17 @@ An interactive mobile application along with a desktop application and an EEG he
  
   ![Main page emotions]()
   
- 3. The **Map** button directs the user to the **Happinesses Map**, by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user have the option to Choose between two radii, gradients and opacities The Happiness level is calculated based on the following formula:
+ 3. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user have the option to Choose between two radii, gradients and opacities The Happiness level is calculated based on the following formula:
   
     Happiness Level = (15% * Interest Level) + (15% * Engagement Level) + (35% Interest Level) + (35% 		Relaxation Level) 
 
 ![My Map heatmap]() 
 
-4. From the Drop-down list, the user can choose **Common Map**, which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset).
+4. From the Drop-down list, the user can choose **Common Map** which is the **Happiness Map** but based on all users level of happiness (In places the all users visited while wearing the headset).
 
 ![Common heatmap]()
 
-5. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the **X** icon on the top most-right of the page.   
+5. Back to the main menu, the **Play** button directs the user to a playlist of the songs retrieved from the user's mobile phone. The user can play a song then go back to the main menu and observe the change in the emotion levels based on the music track s/he is playing. The user can play, pause, fast-forward, rewind, skip to the next song, back to the previous song and user can leave the application whilst the music track is still playing (A notification will show the current playing song, by tapping on it, the user will be redirected to the application). If the user wishes to stop the music track, s/he can use the ***X*** icon on the top most-right of the page.   
 
 ![Music player]()
 
@@ -62,6 +67,14 @@ An interactive mobile application along with a desktop application and an EEG he
 
 The headset is connected to the computer via Bluetooth, the desktop application reads data from the headset, the data is then transferred and stored in the sever. The mobile application receives the data from the server and utilize it for use in the Happiness Map and statistics. The mobile application contains a database for local storage (Display statistics even if the user is not connected to the Internet. 
 
+# Software Architecture 
+## Desktop Application
+
+The desktop application was developed with **Electron**, fully written in **Node.js**. The headset **Emotiv SDK** was integrated within the application to be able to connect to the headset and retrieve the performance metrics data. The readings are retrieved every 10 second. To associate these readings with a geo-tag (to be used for generating the Happiness Map), the location as longitude and latitude is recorded every 10 seconds via WIFI by Integrating **Google Maps API**. The data is send to the server via a HTTP request also written in Node.js.
+
+## Emotiv Headset
+
+
 
 
 
@@ -73,11 +86,6 @@ The headset is connected to the computer via Bluetooth, the desktop application 
 
 	
 	
-
-
-
-
-
 
 
 
