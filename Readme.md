@@ -3,6 +3,7 @@
 
 
 <img src = "EmoMusic.png" width = "250"/>
+
 # Description
 
 EmoMusic: Emotions + Music
@@ -24,8 +25,8 @@ An interactive mobile application along with a desktop application and an EEG he
 5. Switch on your Emotiv headset.
 
 <p float="left">
-  <img src="Epoc-product-image.png" width="250" />
-  <img src="Insight-new-2-600x600.png" width="250" /> 
+  <img src="Epoc-product-image.png" width="100" />
+  <img src="Insight-new-2-600x600.png" width="100" /> 
 </p>
 
 6. Via Bluetooth, connect the headset manually to your computer.
@@ -39,13 +40,16 @@ An interactive mobile application along with a desktop application and an EEG he
 8. Put on the headset and click on **Start Recording**.
 
 ## Mobile Application
- 1. Sign-up and login to the mobile application. The Id is your Emotiv headset unique id.
+ 1. Sign in to the mobile application. The Id is your Emotiv headset unique id.
  
- ![Login page]()
+  <img src = "login_page.jpeg" width = "400"/>
  
  2. The main page consists of 8 buttons. The forth till the eighth button each corresponds to one of the six emotions: Interest, Stress, Relaxation, Excitement, Engagement and Focus. Each button displays the current level of the intended emotion in percentages.
  
-  ![Main page emotions]()
+  <p float="left">
+  <img src="main.jpeg" width="400" />
+  <img src="Emo_levels.jpeg" width="400" /> 
+</p>
   
  3. The **Map** button directs the user to the **Happinesses Map** by default set to **My Map** which visualizes the level of happiness in the places the user visited while wearing the headset.The user have the option to Choose between two radii, gradients and opacities The Happiness level is calculated based on the following formula:
   
@@ -78,7 +82,7 @@ The performance metrics measures (as percentages) including: Interest, Stress, R
 
 ## Server
 
-For the server side, **Amazon EC2** server is used. The server stores the data retrieved from the
+For the server side, **Amazon EC2** server is used. The server stores the data retrieved from the desktop application (i.e. Performance metrics and location). The calculations 
 
 
 
