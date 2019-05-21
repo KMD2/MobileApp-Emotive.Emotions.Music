@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>EmoMusic</title>
+</head>
+<body>
+<div id="parent" style="display: table; width:100%">
+    </form>
+    <div class="row">
+        <div id="price-container">
+            <p class="subtext" id="headsetStr">Please connect your headset</p>
+            <p id="headset"></p>
+        </div>
+        <div id="goal-container">
+            <p><span id="recordFlag"></span></p>
+        </div>
+        <div id="right-container">
+            <button id="startBtn" disabled=true>Start recording</button>
+        </div>
+    </div>
+    <div>
+        <img src="../images/music.png" />
+    </div>
+</div>
+</body>
+<script>
+    const num = require('../src/numbers.js')
+    const hsets = require('../src/headset.js')
+
+    //window.document.getElementById("startBtn").disabled = true;
+
+    document.querySelector('#startBtn').addEventListener('click', () => {
+        document.getElementById("recordFlag").innerText = "Recording data ..."
+        num.getData()
+    })
+    hsets.getHeadSets();
+
+
+</script>
+
+</html>

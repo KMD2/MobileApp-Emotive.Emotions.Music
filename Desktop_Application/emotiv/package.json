@@ -1,0 +1,33 @@
+{
+  "name": "EmoMusic",
+  "version": "1.0.0",
+  "description": "Course project",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron .",
+    "package-mac": "electron-packager . EmoMusicAppMacOs --icon=images/icon --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+    "package-win": "electron-packager . EmoMusic --icon=images/icon --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"EmoMusic\"",
+    "package-linux": "electron-packager . EmoMusic --icon=images/icon --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+  },
+  "author": "Duoaa Khalifa and Nadya Abdel Madjid",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "electron-version": "^2.0.1",
+    "geolocation": "^0.2.0",
+    "jquery": "^3.4.1",
+    "jwt-decode": "^2.2.0",
+    "keytar": "^4.6.0",
+    "node-geolocation": "^1.15.14",
+    "oauth-electron": "^2.0.8",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0",
+    "ws": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1",
+    "electron-rebuild": "^1.8.4"
+  }
+}
