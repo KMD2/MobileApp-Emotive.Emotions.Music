@@ -15,36 +15,32 @@ An interactive mobile application along with a desktop application and an EEG he
 # Installation and Setup
 ## Desktop Application and Emotiv Headset
 
-1. Download the application from the following link:
-https://drive.google.com/drive/folders/1g6CJFuNcRF9of6hmKIIRR_YSMg2H-jt-
-2. Unzip the file **emotiv** and go to the release-builds directory. 
-3. Run the proper file According to your operating system.
-4. After a successful installation, the application will launch automatically. (see figure below)
+1. Clone the repository. Go to **Desktop_Application** directory and open the project **emotiv** with Electron. Pack the project for the operating system you use. After packing, go to the release-builds directory and run the application. (see figure below)
 
 ![Desktop start](Images/EmoMusic_Desktop_start.JPG)
 
-5. Switch on your Emotiv headset.
+2. Switch on your Emotiv headset.
 
 <p float="left">
   <img src="Images/Epoc-product-image.png" width="200" />
   <img src="Images/Insight-new-2-600x600.png" width="200" /> 
 </p>
 
-6. Via Bluetooth, connect the headset manually to your computer.
+3. Via Bluetooth, connect the headset manually to your computer.
 
 <img src = "Images/Add_Device_Blutooth.JPG" width = "375"/>
 
-7. Go back to the desktop application. It should display the  message "Connected Headset" and the name of the headset.
+4. Go back to the desktop application. It should display the  message "Connected Headset" and the name of the headset.
 
 ![Connected headset](Images/Desktop_app_connected.png)
 
-8. Put on the headset and click on **Start Recording**.
+5. Put on the headset and click on **Start Recording**.
 
 ![Connected headset](Images/desktop_app_recording.png)
 
 ## Mobile Application
 
- 1. Clone the repository. Go to **Mobile_Application** directory and open the project **EmoMusic_new** with Android Studio and download the application.
+ 1. Go to **Mobile_Application** directory and open the project **EmoMusic_new** with Android Studio and download the application.
  
  2. Sign in to the mobile application. The Id is your Emotiv headset unique id.
  
