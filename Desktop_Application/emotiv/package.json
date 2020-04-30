@@ -16,7 +16,7 @@
     "bootstrap": "^4.3.1",
     "electron-version": "^2.0.1",
     "geolocation": "^0.2.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jwt-decode": "^2.2.0",
     "keytar": "^4.6.0",
     "node-geolocation": "^1.15.14",
